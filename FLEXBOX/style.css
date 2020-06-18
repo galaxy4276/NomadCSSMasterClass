@@ -1,0 +1,7 @@
+.box {
+  background: coral;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 2px;
+  display: inline-block;
+}
