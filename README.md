@@ -27,4 +27,15 @@
   #### flex-wrap 
   * default no-wrap
   * wrap 옵션은 child의 크기를 유지하게 함.
-    
+  #### flex-grow, flex-shrink
+  * child 에게 줄 수 있는 옵션
+  * flex-shrink defalut 1
+  * flex-shrink 는 wrap이 nowrap일 때 너비가 줄어드는 배수 값
+  * flex-grow default 0
+  * flex-grow 는 shrink 와 반대, box가 얼마나 커질 지
+  * 1을 값으로 하였을 때 남아있는 빈 공간 만큼 커 짐 (최대)
+  * responsive design 에 유용
+  #### flex-basis
+  * child 에 적용되는 property
+  * element 에게 initial size 를 제공
+  * flex-basis 는 main axis 에서 작동하기에 width 이다. 즉 flex-direction 이 column 값일 때 height가 되어버림.
