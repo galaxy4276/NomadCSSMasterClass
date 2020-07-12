@@ -59,3 +59,7 @@
   * 눈에 잘보이게 layout을 디자인함.
   #### grid-area
   * grid 이름변수를 적용
+  #### grid-column-start, grid-column-end
+  * 컬럼이아닌 line을 뜻함.
+  * start: 1, end: 2 일시 line 1에서 2까지
+  * 
