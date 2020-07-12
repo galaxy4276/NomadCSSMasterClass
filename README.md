@@ -47,6 +47,8 @@
   
 ### GRID
 * GRID 디자인은 father에서 해야함.
+* grid 라인은 음수로 카운트할 수 있음 ( ex -1 은 마지막 라인 )
+* https://studiomeal.com/archives/533 grid 정리 표 
   #### column-gap 
   * 컬럼간의 간격을 말함
   #### row-gap
@@ -62,4 +64,5 @@
   #### grid-column-start, grid-column-end
   * 컬럼이아닌 line을 뜻함.
   * start: 1, end: 2 일시 line 1에서 2까지
+  * span = 시작 과 끝 을 의미함. cell 갯수를 적어준다.
   * 
