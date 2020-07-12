@@ -72,3 +72,11 @@
   * 이름을 부여할 때 모두 붙이던가, 붙이질 말아야함.
   * row 정의 후 / 각 column 사이즈 정의
   * repeat 함수가 적용되지 않음.
+  #### justify-items
+  * main axis 수평 부분
+  * 기본값은 stretch
+  * property: start, end, center, stretch(default)
+  #### align-items 
+  * cross axis 수직 부분
+  #### place-items
+  * 기본형식 y / x; ( except /)
