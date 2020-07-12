@@ -49,6 +49,9 @@
 * GRID 디자인은 father에서 해야함.
 * grid 라인은 음수로 카운트할 수 있음 ( ex -1 은 마지막 라인 )
 * https://studiomeal.com/archives/533 grid 정리 표 
+* content: 전체 grid 표를 의미함.
+* grid 는 기본적으로 100% 크기를 지님.
+* 그리드 자주 사용 프로퍼티: start, center, end
   #### column-gap 
   * 컬럼간의 간격을 말함
   #### row-gap
@@ -76,7 +79,15 @@
   * main axis 수평 부분
   * 기본값은 stretch
   * property: start, end, center, stretch(default)
+  #### justify-content
+  * grid 전체를 제어
+  * start, center, end, space-around 등등 프로퍼티 존재 + space-evenly
   #### align-items 
   * cross axis 수직 부분
+  * cell 중에 하나, 즉 한 칸의 아이템
   #### place-items
   * 기본형식 y / x; ( except /)
+  #### align-content
+  #### place-content
+  * align-content, justify-content
+ 
