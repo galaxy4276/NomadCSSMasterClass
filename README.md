@@ -52,3 +52,10 @@
   #### row-gap
   #### gap
   * column, row  all gap
+  #### repeat
+  * grid가 지니고 있는 함수
+  * 1 arg: 반복할 횟수, 2 arg: 크기
+  #### grid-template-areas
+  * 눈에 잘보이게 layout을 디자인함.
+  #### grid-area
+  * grid 이름변수를 적용
