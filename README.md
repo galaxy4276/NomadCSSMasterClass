@@ -39,3 +39,16 @@
   * child 에 적용되는 property
   * element 에게 initial size 를 제공
   * flex-basis 는 main axis 에서 작동하기에 width 이다. 즉 flex-direction 이 column 값일 때 height가 되어버림.
+  #### wrap
+  * flex는 기본적으로 모든 것을 한줄에 두려고 한다.
+  * flex-wrap: wrap 설정 시 여러 줄에 걸쳐서 표현한다.
+  #### flex-flow
+  * flex-direction, flex-wrap 을 동시에 수행함.
+  
+### GRID
+* GRID 디자인은 father에서 해야함.
+  #### column-gap 
+  * 컬럼간의 간격을 말함
+  #### row-gap
+  #### gap
+  * column, row  all gap
