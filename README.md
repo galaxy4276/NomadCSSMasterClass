@@ -85,9 +85,26 @@
   #### align-items 
   * cross axis 수직 부분
   * cell 중에 하나, 즉 한 칸의 아이템
+  #### align-self, justify-self, place-selft
+  * 개별 cell을 컨트롤
   #### place-items
   * 기본형식 y / x; ( except /)
   #### align-content
   #### place-content
   * align-content, justify-content
  
+  #### grid-auto-rows, grid-auto-column
+  * 추가되는 열, 행에 대해 자동적으로 생성해주는 옵션
+  #### grid-auto-flows
+  * 추가되는 열에 대해 column을 생성할 지 row를 생성할 지 결정할 수 있음.
+
+
+  #### minmax()
+  * 크기의 최소, 최대 크기를 지정한다.
+  예) 1fr 일 경우 공간에 따른 제약을 없애기위해 최소사이즈 100px, 1fr 지정 가능
+
+
+  #### auto-fill, auto-fit
+  * column을 가능한 한 많이 만들어줌.
+  * auto-fill은 화면에 element 갯수만큼 그려줌
+  * auto-fit 은 화면에 꽉차게 그려줌
