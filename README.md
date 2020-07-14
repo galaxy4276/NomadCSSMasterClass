@@ -93,7 +93,7 @@
   #### place-content
   * align-content, justify-content
  
-  #### grid-auto-rows, grid-auto-column
+  #### grid-auto-rows, grid-auto-column`
   * 추가되는 열, 행에 대해 자동적으로 생성해주는 옵션
   #### grid-auto-flows
   * 추가되는 열에 대해 column을 생성할 지 row를 생성할 지 결정할 수 있음.
@@ -108,3 +108,8 @@
   * column을 가능한 한 많이 만들어줌.
   * auto-fill은 화면에 element 갯수만큼 그려줌
   * auto-fit 은 화면에 꽉차게 그려줌
+
+  #### min-content, max-content
+  * 필요한 content 크기만큼 커진다.
+  * min-content 얼마나 작게될 수 있느냐
+  * max-content 얼마나 크게될 수 있느냐
