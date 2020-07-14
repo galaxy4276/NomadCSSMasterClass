@@ -45,7 +45,7 @@
   #### flex-flow
   * flex-direction, flex-wrap 을 동시에 수행함.
   
-### GRID
+### #2 GRID
 * GRID 디자인은 father에서 해야함.
 * grid 라인은 음수로 카운트할 수 있음 ( ex -1 은 마지막 라인 )
 * https://studiomeal.com/archives/533 grid 정리 표 
@@ -113,3 +113,36 @@
   * 필요한 content 크기만큼 커진다.
   * min-content 얼마나 작게될 수 있느냐
   * max-content 얼마나 크게될 수 있느냐
+
+### #3 SCSS
+* _(underscore) 로 시작하는 파일은 컴파일과정에서 css로 변하지 않길 원하는 파일을 뜻함.
+* nesting: .item a => item { a: {} } 대상 엘리먼트를 좀더 명확하게 작성하는 법
+* mixins 
+* ex) 
+@mixin link($color) {
+  text-decoration: none;
+  display: block;
+  color: $color;
+}
+
+import
+a {
+  &:nth-child(odd) {
+    @include link(black);
+  }
+
+  &:nth-child(even) {
+    @include link(coral);
+  }
+}
+
+* mixins 제어문
+@mixin linkTwo($word) {
+  text-decoration: none;
+  display: block;
+  @if $word == 'odd' {
+    color: burlywood;
+  } @else {
+    color: sandybrown;
+  }
+}
