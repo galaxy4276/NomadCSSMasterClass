@@ -118,6 +118,7 @@
 * _(underscore) 로 시작하는 파일은 컴파일과정에서 css로 변하지 않길 원하는 파일을 뜻함.
 * nesting: .item a => item { a: {} } 대상 엘리먼트를 좀더 명확하게 작성하는 법
 * mixins 
+* 수 많은 scss 라이브러리가 존재함. ( 봉본, animated.scss 추천)
 * ex) 
 @mixin link($color) {
   text-decoration: none;
@@ -149,3 +150,6 @@ a {
 
   #### extend
   * 기존 코드를 재사용하고 추가로 작성할 코드를 엘리먼트에서 작성하게끔 해줌
+
+  #### @content
+  * 코드를 받아오는 역할을 수행함.
