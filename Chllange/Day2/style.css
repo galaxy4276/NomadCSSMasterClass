@@ -1,0 +1,78 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+    background-color:#F6F6F6;
+    padding:50px 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 770px;
+    width: 100%;
+    margin:0 auto;
+}
+
+.body-wrapper {
+    display: flex;
+    height: 850px;
+    flex-direction: column;
+    background-color: #f2f3f0;
+    padding: 1rem;
+    box-shadow: 25px 10px 20px rgba(172, 172, 172, 0.4);
+}
+
+.body-wrapper__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2rem 1rem 1rem 1rem;
+    border-bottom: 1px solid dimgray;
+}
+
+.body-wrapper__header h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.body-wrapper__header h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    bottom: 0;
+}
+
+.body-wrapper__contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.circles {
+    display: flex;
+    flex-direction: row;
+}
+
+.circles-object__blue {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 500px;
+    background-color: #bbe1f0;
+    color: #bbe1f0;
+}
+
+.circles-object__grey {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 500px;
+    background-color: #616365;
+    color: #616365;
+}
+
+.circles-object__green {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 500px;
+    background-color: #04a565;
+    color: #04a565;
+}
